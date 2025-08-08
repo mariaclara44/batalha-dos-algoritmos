@@ -188,3 +188,18 @@ console.log(`3️⃣CAPÍTULO 3: Após várias análises, antes da batalha final
     console.log(`Sua forca ao final ficou ${forca} pontos. E a agilidade para ${agilidade}`);
     
  }
+
+ // Resultado final - Epilógo
+let batalhaVencida = true;
+if (batalhaVencida) {
+    console.log(`A personagem conseguiu trazer honra ao seu nome`);
+    combatesVencidos++
+    xp += 75
+} else {
+    console.log(`A personagem não conseguiu total sucesso em seu combate`);
+    
+}
+ console.log(`EPILÓGO: Ao concluir sua batalha épica, Íris senta no chão e respira fundo e tenta se concentrar para sua próxima missão e está seria a missão final, estando em um lugar desconhecido estranho e sombriu, aguardando sua próxima aventura`);
+
+ console.log(`🎉Fim do NÍVEL 2: Aguarde o próximo nível`);
+ 
