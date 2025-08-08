@@ -163,3 +163,28 @@ if (combatesVencidos >= 5) {
     console.log(`Ela terá pequenas chances de vitória.`);
     
 }
+
+console.log(`3️⃣CAPÍTULO 3: Após várias análises, antes da batalha final, Íris tenta se concentrar, com suas forças renovadas, agora precisa renovar sua coragem, tentando se lembrar do seu objetivo ao encarar essa missão. Respirando fundo ela se concentra e com determinação decide que nada irá derrota-lá. De repente de um completo nada , ela escuta um barulho e quando vira se depara com uma figura mostruosa de 4 metros de altura, que possuia presas, uma cauda extensa, e com asas extremante longas e fortes, da qual precisará de sua força e agilidade chegar a vitória.`);
+
+ if (agilidade >= 20 & forca >= 40 ) {
+    console.log(`Ela conseguiu enfrentar a criatura com sucesso.`);
+     agilidade += 10 
+     forca += 20 
+     nivel++
+     console.log(`Sua agilidade subiu para ${agilidade} e força para ${forca}. Seu nível foi para ${nivel}`);
+     
+    
+} else if (agilidade >=10 & forca >= 30) {
+    console.log(`Obteve sucesso, porém ficou muito ferida`);
+    agilidade += 10
+    forca -= 20
+    console.log(`Sua agilidade ficou com ${agilidade} pontos. E a força baixou para ${forca} pontos`);
+    
+
+ }  else {
+    console.log(`Ela não conseguiu completar a missão, fracassando em sua missão, ao perder a batalha`);
+    agilidade -= 10 
+    forca -= 25
+    console.log(`Sua forca ao final ficou ${forca} pontos. E a agilidade para ${agilidade}`);
+    
+ }
