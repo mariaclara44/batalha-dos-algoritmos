@@ -111,3 +111,23 @@ let missaoAtual = "Enfrentar Guardião";
 //  Estrutura Narrativa Obrigatória
 
 console.log(`💭Prólogo: A ${classe} ${nome} nascida em Elphírico, ao completar 18 anos, havia recebido uma profecia juntamente com uma missão que deveria ir até uma caverna da qual precisaria enfrentar seu guardião para consquistar um tributo, tendo apenas sua ${NOME_ARMA} e sua ${NOME_ARMADURA}. Mas ao chegar lá percebe que o lugar possiu muitas armadilhas e criaturas míticas e deverá derrotar todas para instaurar sua glória. `);
+
+console.log(`1️⃣CAPÍTULO I: Ao amanhecer antes de Íris entrar na caverna e cumprir sua missão com honra e coragem, ela percebe que ao abrir o portão terá que enfrentar uma fera poderosa e mortal da qual ninguém havia lutado antes, portanto será necesserário obter um escudo para ver se terá chances de enfrentar a criatura, além de verificar se sua armadura e arma estão bons.`);
+
+// Para passar pela porta precisa verificar se possui um escudo
+
+let podePassarPelaPorta = possuiEscudo;
+
+if (possuiEscudo) {
+    console.log(`A guerreira poderá passar pela porta? ${podePassarPelaPorta}.`);
+    xp += 10
+    console.log(`Com isso adquiriu ${xp} pontos de expêriencia.`);
+    
+}
+
+// Verificação se posses (armadura e arma) 
+let possuiArmaduraEArma = true;
+if (possuiArmaduraEArma) {
+    console.log(`A guerreira está segura e pronta para seguir: ${possuiArmaduraEArma}.`);
+    
+}
