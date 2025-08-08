@@ -131,3 +131,35 @@ if (possuiArmaduraEArma) {
     console.log(`A guerreira está segura e pronta para seguir: ${possuiArmaduraEArma}.`);
     
 }
+
+console.log(`2️⃣CAPÍTULO II: Após a permissão concebida para entrar e sua rápida escapada da armadilha Íris resolveu encontrar um lugar seguro para descansar, dessa forma podendo enfrentar a fera com as forças renovadas. Viu um canto que aparentava ser seguro e lá se deitou. No cair da noite do mesmo a guerreira se levantou, sentindo-se revigorada, então pós-se de pé e seguiu adiante disposta a cumprir o que havia sido destinada. Um silêncio mortal tomava conta da caverna, a guerreira andava em passos lentos e pensava o que será que a aguardava? `);
+
+vidaAtual += 15 
+console.log(`Totalizando ela ganhou ${vidaAtual} pontos de vida.`);
+
+console.log(`Ao dar o seu primeiro passo, percebe que pisou em algo e ao virar-se rapidamente vê vários machados voando em sua direção.`);
+
+// Verificação de defesa para a guerreira analisar as chances de desviar da armadilha
+if (defesa >= 20) {
+    console.log(`Ela conseguiu desviar e se salvar da armadilha.`); 
+    defesa += 30 
+    console.log(`Sua pontuação de defesa subiu para ${defesa}.`);
+    
+} else {
+    console.log(`Ela foi atingida e perdeu 25 pontos de vida.`);
+    defesa -= 15 
+    console.log(`Sua pontuação baixou para ${defesa}.`);
+    
+}
+
+// Vericação de combates vencidos para a guerreira analisar as chances de vitória
+
+if (combatesVencidos >= 5) {
+    console.log(`A ${classe} ${nome} pode ter chances de ganhar da criatura.`);
+    xp += 10
+    console.log(`Sua pontuação de xp será de  ${xp}.`);
+    
+} else {
+    console.log(`Ela terá pequenas chances de vitória.`);
+    
+}
