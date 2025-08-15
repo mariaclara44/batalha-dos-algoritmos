@@ -356,3 +356,25 @@ console.log(`Jogada: ${(i + 1)}. E o dano foi de: ${danoRecebido[i]}`);
 
 console.log(`🧨 Dano atual: ${danoTotal}`);
 console.log(`🪞 Tesouros coletados durante a missão: ${tesouroColetado.length}.`);
+
+// ==== EPÍLOGO ====
+console.log(`Ao final da batalha, dos danos de tesouros e poções coletadas ${nome} finalmente encerra sua missão com orgulho, coragem e honra a sua jornada!`);
+
+console.log(`Resultados posteriores a batalha final:`);
+console.log(` Nível conquistado: ${nivel}`);
+console.log(`Experiência: ${xp}`);
+console.log(`Vida: ${vidaAtual} / ${vidaMaxima}`);
+console.log(`Ouro: ${ouro}`);
+console.log(`Lista inventário: ${inventario.length}`);
+console.log(`Aliados: ${aliados.length}`);
+console.log(`Tesouros coletados: ${tesouroColetado.length}`);
+
+
+console.log(` A primeira missão chega ao fim...`);
+console.log(`Depois de obter total sucessoe sua missão, a única que falatava era retornar a sua cidade natal, constando que a missão foi um sucesso, desse modo ela poderia ter o que lhe fora permitido, o prêmio prometido se conseguisse completar o que lhe foi destinado.`);
+console.log(`Seus aliados ${aliados} queriam acompanha-lá para mostrar seu prestígio, assim que chegaram foram recebidos com uma grande comemoração, com músicas, danças, pratos grandiosos e etc...Dessa forma prosseguiu, no final da festa o mesmo que havia recitado a profecia destinada a ${classe}, levantou para dizer algumas palvras`);
+console.log(`Após o discurso o general dirigiu a palavra para ${nome} e tirando o elmo da cabeça e a espada da cintura cedeu seu cargo a ela.`);
+console.log(`AS ${classe} nem exitou e aceitou com emoção sua recompensa merecida. Aproveitou o momento para agradecer toda ajuda que teve durante a batalha e como forma de sua graditão convidou seu amigos (aliados) a se juntarem ao exercíto, dando a cada um cargos especiais e importantes. Sem demora todos aceitaram imediatamente o convite!`);
+console.log(`Aquela tinha sido o melhor dia de todos, sentiu a calmaria pousando naquele espaço e por mais que sabia que era passageira e uma nova missão estava por vir, decidiu aproveitar o momento saborendo a paz que não estavam presentes antesem sua vida.`);
+
+console.log(`🎉NÍVEL 3 ENCERRADO COM SUCESSO! Aguarde a próxima missão!`);
