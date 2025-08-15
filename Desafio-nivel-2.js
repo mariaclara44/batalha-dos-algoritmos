@@ -262,3 +262,29 @@ console.log(`Nova poção na lista do inventário: ${inventario}`);
 let pocaoRemovida = inventario.pop(); // Item tirado ao final do array
 console.log(`🧪 Poção removida: ${pocaoRemovida}`);
 console.log(`🗒️ Inventário atual: ${inventario}`);
+
+// === CAPÍTULO V ===
+console.log(`Após entrar no Salão Aurora viu que era um lugar espaçoso, com muitos lustres e comodas com vasos e flores bonitas, decidiu que andaria pelo castelo para explorar os outros cômodos e tentar encontrar o guardião.`);
+
+// Utilização do for (tradicional)
+console.log(`🚩 Início da descoberta das salas do castelo ${salasDoCastelo.length}.`);
+
+for (let i = 0; i < salasDoCastelo.length; i++) {
+console.log(`Sala ${i + 1} : ${salasDoCastelo[i]} `);
+
+if (i === 0) {
+  console.log(`🗝️ ${nome} encontrou uma chave em cima de um balcão`);
+    xp+= 30;
+      console.log(`Agilidade atualizada: ${agilidade} `);
+} else if (i === 1) {
+  console.log(`🛡️Pulseira mágica que se transforma em um escudo quando necessário`);
+    tesouroColetado.push(`🛡️Bracelete Eco blindado`);
+      defesa += 30
+      console.log(`Tesouro coletado durante o percurso foi ${tesouroColetado}. A ${classe} conquistou ${defesa} pontos de defesa`);
+} else {
+  console.log(`Uma pratileira cheia de pratos caiu sobre ${nome} `);
+    agilidade -= 25;
+    console.log(`Com isso ${nome} sua atual pontuação de agilidade é de ${agilidade}`);
+    
+}
+}
