@@ -203,3 +203,36 @@ if (batalhaVencida) {
 
  console.log(`🎉Fim do NÍVEL 2: Aguarde o próximo nível`);
  
+
+// NÍVEL 3:
+console.log(` -- CONTINUAÇÃO ÉPICA --`);
+
+// === ELEMENTOS NOVOS PARA A HISTÓRIA ===
+
+console.log(
+  `PROLOGO: Sua nova Aliada Fada Luna, lhe disse a informação de que o guardião havia se instalado no castelo e que deveria ir até lá para poder encontra-ló e derrota-ló cumprindo assim sua missão. Apresentou informações como: Inventário, aliados (que teria nessa nova jornada), inimigos encontrados, salas do castelo (da qual ela devia adentrar) e tesouro coletado:`
+);
+
+let inventario = [
+  "Cera Reconstrutora",
+  "Lança da Tempestade",
+  "Elmo do Destino ",
+  "Poção de força",
+];
+let aliados = ["Mago Steve", "Cavalo Arco-Íris", "Elfo Dodo", "Fada Luna"];
+let inimigosEncontrados = [
+  "Guardião da caverna",
+  "Dragão Marinho",
+  "Guarda Cristovan",
+];
+let salasDoCastelo = [
+  "Salão Aurora",
+  "Jardim dos Sussurros",
+  "Calabouço Alvorada ",
+  "Biblioteca dos Esquecidos",
+  "Sala do Trono",
+  "Cozinha dos Segredos",
+];
+let tesouroColetado = [];
+
+
