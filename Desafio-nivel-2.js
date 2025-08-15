@@ -236,3 +236,29 @@ let salasDoCastelo = [
 let tesouroColetado = [];
 
 
+// === CAPÍTULO IV: ===
+console.log(
+  `4️⃣CAPÍTULO IV: A guerreira após a mensagem deixada pela fada Luna, se dirigiu para fora da caverna e seguiu um caminho de pedras que a levaram até uma floresta aparentemente bela, mas ao adentrar mais ao meio percebeu que era escura e sombria mas prosseguiu da mesma forma. Encontrou um enorme castelo, que era inabitado há anos. Então ela entrou e percebeu que estava em um Salão. `
+);   
+
+// Declaração e inicialização
+let pocoesEncontradas = ["Elixir Carmesim do Coração Valente", "Poção do Manto Invisível", "Poção do Eco dos Antigos", "Aegis de Brumas", "Bálsamo da Lua Serena", "Tônico Carmesim"
+];
+let armadilhasAtiradas = []; // Array vazio que será preenchido mais a frente 
+
+// Acesso e modificação de elementos
+console.log(`⚗️ Primeira poção encontrada: ${pocoesEncontradas[0]}`);
+console.log(`Total de poções mágicas:  ${pocoesEncontradas.length}`);
+
+// Modificando elemento específico
+inventario[0] = "Poção de batalha"; // Poção aprimorada!
+console.log(`✨ ${nome} aprimorou uma poção!`);
+
+//Métodos de array fundamentais
+inventario.push(`Resina de Pedra`); // Adicionado ao final do array
+console.log(`Nova poção na lista do inventário: ${inventario}`);
+
+
+let pocaoRemovida = inventario.pop(); // Item tirado ao final do array
+console.log(`🧪 Poção removida: ${pocaoRemovida}`);
+console.log(`🗒️ Inventário atual: ${inventario}`);
