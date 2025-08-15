@@ -264,7 +264,7 @@ console.log(`🧪 Poção removida: ${pocaoRemovida}`);
 console.log(`🗒️ Inventário atual: ${inventario}`);
 
 // === CAPÍTULO V ===
-console.log(`CAPÍTULO V: Após entrar no Salão Aurora viu que era um lugar espaçoso, com muitos lustres e comodas com vasos e flores bonitas, decidiu que andaria pelo castelo para explorar os outros cômodos e tentar encontrar o guardião.`);
+console.log(`5️⃣CAPÍTULO V: Após entrar no Salão Aurora viu que era um lugar espaçoso, com muitos lustres e comodas com vasos e flores bonitas, decidiu que andaria pelo castelo para explorar os outros cômodos e tentar encontrar o guardião.`);
 
 // Utilização do for (tradicional)
 console.log(`🚩 Início da descoberta das salas do castelo ${salasDoCastelo.length}.`);
@@ -288,3 +288,71 @@ if (i === 0) {
     
 }
 }
+
+// ==== CAPÍTULO VI ====
+console.log(`Nesta fase da missão ela irá convidar seus aliados para a batalha final`);
+
+// Usando for (tradicional), para mostrar os aliados
+for (let i = 0; i < aliados.length; i++) {
+let aliado = aliados[i]; 
+console.log(`⚔️Aliados convocados: ${i + 1} : ${aliados} aceitaram o convite e irão comparecer a batalha`);
+
+if (i === 0) { 
+console.log(` O primeiro alido: ${aliado} duplica a força da equipe!`);
+  forca * 2;
+    console.log(`💪O total de pontos de força é de: ${forca}.`);    
+} else if (i === 1) { 
+console.log(`🪙O segundo aliado: ${aliado} aumentou a energia do grupo!`);
+  manaMaxima += 20;
+    console.log(` 🎆O total de pontos do mana é de: ${manaMaxima}`);
+} else { 
+console.log(`A terceira aliada: ${aliado} " melhorou a resistência da equipe!`);
+  defesa += 30;
+    console.log(`🛡️O total dos pontos de defesa é de: ${defesa}.`);
+}
+}
+
+// ==== CAPÍTULO VI ====
+console.log(`56️⃣CAPÍTULO VI: A ${classe} após recrutar seus aliados, coletar tesouros e poções, ela e sua equipe se preparam para lutar com o guardião da caverna que estava escondido no castelo.`);
+
+// Usando arrays e for (tradicional)
+let inimigosDeBatalha = ["Dragão Celestial", "Feiticeiro Scar", "Serpente Esmeralda"];
+let danoRecebido = [];
+
+console.log(`💀 ${nome} deverá lutar com ${inimigosDeBatalha.length} seus inimigos de batalha!`);
+
+for (let i = 0; i < inimigosDeBatalha.length; i++) {
+let inimigo = inimigosDeBatalha[i];
+let dano = Math.floor(Math.random() * 15) + 25;
+
+console.log(`🛞 Jogada: ${(i + 1)}  E está enfrentando: ${inimigo}`);
+console.log(`🧨 A ${classe} sofreu um golpe que a arremesou para uma longa distância, que há fez ficar com ${dano} de dano!`);
+
+danoRecebido.push(dano);
+
+// Jogada com base no índice
+if (i === 0) {
+console.log(`💎 Exito: Bracelete Eco Blinadado!`);
+  tesouroColetado.push("Metal precioso");
+} else if (i === 1) {
+console.log(`🌑Próxima jogada: O dragão cospe fogo, Íris tenta desviar e é atingida, porém se salva!`);
+  vidaMaxima -= 25;
+    console.log(`A pontuação de vida máxima após o golpe é de ${vidaMaxima}`);
+} else {
+  console.log(`Jogada final: O dragão é submerso por pedras! Glória conquistada!`);
+forca += 90; 
+xp += 70;
+  console.log(`A pontuação da força após o exito consquitado é de ${forca} e de xp é de ${xp}`);
+    tesouroColetado.push("Escama Dragônica");
+}
+}
+
+let danoAtual = 0;
+for (let i = 0; i < danoObtido.length; i++) {
+danoAtual += danoObtido[i];
+nivel++;
+console.log(`Jogada: ${(i + 1)}. E o dano foi de: ${danoRecebido[i]}`);
+}
+
+console.log(`🧨 Dano atual: ${danoTotal}`);
+console.log(`🪞 Tesouros coletados durante a missão: ${tesouroColetado.length}.`);
