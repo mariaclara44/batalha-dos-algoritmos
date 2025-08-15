@@ -348,13 +348,13 @@ xp += 70;
 }
 
 let danoAtual = 0;
-for (let i = 0; i < danoObtido.length; i++) {
+for (let i = 0; i < danoAtual.length; i++) {
 danoAtual += danoObtido[i];
 nivel++;
 console.log(`Jogada: ${(i + 1)}. E o dano foi de: ${danoRecebido[i]}`);
 }
 
-console.log(`🧨 Dano atual: ${danoTotal}`);
+console.log(`🧨 Dano atual: ${danoAtual}`);
 console.log(`🪞 Tesouros coletados durante a missão: ${tesouroColetado.length}.`);
 
 // ==== EPÍLOGO ====
