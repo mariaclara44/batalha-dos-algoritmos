@@ -358,7 +358,7 @@ console.log(`🧨 Dano atual: ${danoTotal}`);
 console.log(`🪞 Tesouros coletados durante a missão: ${tesouroColetado.length}.`);
 
 // ==== EPÍLOGO ====
-console.log(`Ao final da batalha, dos danos de tesouros e poções coletadas ${nome} finalmente encerra sua missão com orgulho, coragem e honra a sua jornada!`);
+console.log(`EPÍLOGO: Ao final da batalha, dos danos de tesouros e poções coletadas ${nome} finalmente encerra sua missão com orgulho, coragem e honra a sua jornada!`);
 
 console.log(`Resultados posteriores a batalha final:`);
 console.log(` Nível conquistado: ${nivel}`);
