@@ -288,3 +288,26 @@ if (i === 0) {
     
 }
 }
+
+// ==== CAPÍTULO VI ====
+console.log(`Nesta fase da missão ela irá convidar seus aliados para a batalha final`);
+
+// Usando for (tradicional), para mostrar os aliados
+for (let i = 0; i < aliados.length; i++) {
+let aliado = aliados[i]; 
+console.log(`⚔️Aliados convocados: ${i + 1} : ${aliados} aceitaram o convite e irão comparecer a batalha`);
+
+if (i === 0) { 
+console.log(` O primeiro alido: ${aliado} duplica a força da equipe!`);
+  forca * 2;
+    console.log(`💪O total de pontos de força é de: ${forca}.`);    
+} else if (i === 1) { 
+console.log(`🪙O segundo aliado: ${aliado} aumentou a energia do grupo!`);
+  manaMaxima += 20;
+    console.log(` 🎆O total de pontos do mana é de: ${manaMaxima}`);
+} else { 
+console.log(`A terceira aliada: ${aliado} " melhorou a resistência da equipe!`);
+  defesa += 30;
+    console.log(`🛡️O total dos pontos de defesa é de: ${defesa}.`);
+}
+}
